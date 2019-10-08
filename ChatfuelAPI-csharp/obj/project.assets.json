@@ -1,0 +1,159 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Magick.NET-Q8-x64/7.14.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard20/Magick.NET-Q8-x64.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard20/Magick.NET-Q8-x64.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/Magick.Native-Q8-x64.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/Magick.Native-Q8-x64.dll.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/Magick.Native-Q8-x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Magick.NET-Q8-x64/7.14.4": {
+      "sha512": "ZYlosKVEnhpOSKFAfdR0h1ohJ+RBYsX6WpWk1K5E/5WMAYzjrTVNKtp5D+v7AfMsQf8uFBaT4Eyvn4nJceIgJg==",
+      "type": "package",
+      "path": "magick.net-q8-x64/7.14.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Copyright.txt",
+        "build/net20/Magick.NET-Q8-x64.targets",
+        "build/net40/Magick.NET-Q8-x64.targets",
+        "lib/net20/Magick.NET-Q8-x64.dll",
+        "lib/net20/Magick.NET-Q8-x64.xml",
+        "lib/net40/Magick.NET-Q8-x64.dll",
+        "lib/net40/Magick.NET-Q8-x64.xml",
+        "lib/netstandard13/Magick.NET-Q8-x64.dll",
+        "lib/netstandard13/Magick.NET-Q8-x64.xml",
+        "lib/netstandard20/Magick.NET-Q8-x64.dll",
+        "lib/netstandard20/Magick.NET-Q8-x64.xml",
+        "magick.net-q8-x64.7.14.4.nupkg.sha512",
+        "magick.net-q8-x64.nuspec",
+        "runtimes/linux-x64/native/Magick.Native-Q8-x64.dll.so",
+        "runtimes/osx-x64/native/Magick.Native-Q8-x64.dll.dylib",
+        "runtimes/win-x64/native/Magick.Native-Q8-x64.dll"
+      ]
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Magick.NET-Q8-x64 >= 7.14.4",
+      "Newtonsoft.Json >= 12.0.2"
+    ]
+  },
+  "packageFolders": {
+    "/home/izzat/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/izzat/RiderProjects/ChatfuelAPI-csharp/ChatfuelAPI-csharp/ChatfuelAPI-csharp.csproj",
+      "projectName": "ChatfuelAPI-csharp",
+      "projectPath": "/home/izzat/RiderProjects/ChatfuelAPI-csharp/ChatfuelAPI-csharp/ChatfuelAPI-csharp.csproj",
+      "packagesPath": "/home/izzat/.nuget/packages/",
+      "outputPath": "/home/izzat/RiderProjects/ChatfuelAPI-csharp/ChatfuelAPI-csharp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/izzat/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "dependencies": {
+          "Magick.NET-Q8-x64": {
+            "target": "Package",
+            "version": "[7.14.4, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
